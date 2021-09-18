@@ -1,0 +1,33 @@
+body{
+    background-color: white !important;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* background-color: #2196F3; */
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .iframebg{
+      background-image: url('images/Capture\ d’écran\ 2021-09-18\ 114300.png');
+      background-size: cover;
+  }
+@media screen and (max-width: 992px) {
+    body {
+          display: flex;
+          height: auto;
+          justify-content: center;
+          align-items: center;
+          padding: 12px;
+    }
+  }
